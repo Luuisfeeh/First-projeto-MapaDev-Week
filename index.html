@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/animacoes.css">
+    <link rel="stylesheet" href="./src/css/estilos.css"">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <Main><!-- os "class" seria para depois facilitar na estilizaçao do CSS-->
+        <header class="cabecalho"> <!--Cabeçalho-->
+            <h1 class="titulo">
+                Character Select
+            </h1> 
+        </header> 
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/deadpool.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1"> 
+                <div class="nome">
+                    <h2 id="nome-jogador-1">DeadPool</h2>
+                </div><!-- ID seria indentificador-->
+
+            </div>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Deadpool" data-name="DeadPool">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Deadpool-icone.jpg" alt="Personagem DeadPool">
+                </li>
+                
+                <li class="personagem" id="Punisher" data-name="Punisher">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Punisher-Icone.jpg" alt="Personagem Punisher">
+                </li>
+
+                <li class="personagem" id="moon-knight" data-name="Moon Knight">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Moon-knight-Icone.jpg" alt="Personagem Moon Knight">
+                </li>
+
+                <li class="personagem" id="ghost-rider" data-name="Ghost Rider">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Ghost-Rider-Icone.jpg" alt="Personagem Ghost Rider">
+                </li>
+                
+                <li class="personagem" id="morbius" data-name="Morbius">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Morbius-icone.jpg" alt="Personagem Stan Lee">
+                </li>
+
+                <li class="personagem" id="carnage" data-name="Carnage">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Carnificina-Icone.jpg" alt="Personagem Carnage">
+                </li>
+
+                <li class="personagem" id="silver-surfer" data-name="Silver Surfer">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Prateado-Icone.jpg" alt="Personagem Silve Surfer">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="galactus" data-name="Galactus">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/Galactus-icone.jpg" alt="Personagem Galactus">
+                </li>
+
+                <li class="personagem" id="rocket-raccoon" data-name="Rocket Raccoon">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Rocket-Raccoon-Icone.jpg" alt="Personagem Rocket Raccoon">
+                </li> 
+                
+            </ul>
+            
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/Galactus.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2"> 
+                <div class="nome">
+                    <h2>Galactus</h2>
+                </div>
+            </div>
+        </div> <!--Divisão ou agrupar elementos-->
+    </Main> <!--Main seria a parte principal do body-->
+    <script src="./src/JS/index.js"></script>
+</body>
+</html>
